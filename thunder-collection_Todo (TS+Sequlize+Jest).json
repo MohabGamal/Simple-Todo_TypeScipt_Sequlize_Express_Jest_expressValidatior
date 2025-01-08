@@ -1,0 +1,81 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Todo (TS+Sequlize+Jest)",
+    "dateExported": "2023-04-18T23:36:04.979Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "0fac848a-dc9a-4bab-9246-c44428344b13",
+            "colId": "f467578e-4119-422c-a97b-a80b38f58a75",
+            "containerId": "",
+            "name": "DELETE",
+            "url": "http://localhost:9000/delete/c13153b0-549d-4c42-9656-a911d750c451",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2023-04-17T06:13:00.253Z",
+            "modified": "2023-04-17T06:16:05.691Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b95bae0c-3d22-4c7a-918e-82cddfba287b",
+            "colId": "f467578e-4119-422c-a97b-a80b38f58a75",
+            "containerId": "",
+            "name": "POST",
+            "url": "http://localhost:9000/create",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-04-17T06:13:28.709Z",
+            "modified": "2023-04-17T06:15:00.748Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"task3\",\n  \"completed\" : false\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "04ba630e-9c0b-4549-9713-90e63377e0fd",
+            "colId": "f467578e-4119-422c-a97b-a80b38f58a75",
+            "containerId": "",
+            "name": "GET many",
+            "url": "http://localhost:9000/read?limit=2&offset=2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-04-17T06:16:58.491Z",
+            "modified": "2023-04-17T06:17:01.953Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "limit",
+                    "value": "2",
+                    "isPath": false
+                },
+                {
+                    "name": "offset",
+                    "value": "2",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "4e077f4c-311f-4391-b345-a60ef47fdaf6",
+            "colId": "f467578e-4119-422c-a97b-a80b38f58a75",
+            "containerId": "",
+            "name": "GET one",
+            "url": "http://localhost:9000/read/6719d1bc-8b6a-4825-8520-cd003d23ce68",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-04-17T06:17:38.810Z",
+            "modified": "2023-04-17T06:18:32.929Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
